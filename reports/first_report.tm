@@ -200,9 +200,21 @@
   and continues to be a driving force behind numerous advancements in natural
   language understanding and generation.
 
-  <section|Future Plan>
+  <section|Coorperation & Future Plan>
 
   \;
+
+  <with|font-series|bold|Huang Zitong>:\ 
+
+  <with|font-series|bold|Li Jiaqi>:\ 
+
+  <with|font-series|bold|Shenxulei>:\ 
+
+  \;
+
+  <with|font-series|bold|Middle Report>:
+
+  <with|font-series|bold|Final Report>:
 
   \;
 
