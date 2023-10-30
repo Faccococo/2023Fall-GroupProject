@@ -22,11 +22,11 @@ After that, the data set is officially read. Since there is no column name in th
 
 As shown in the above code, using lambda expressions, the data is initially screened according to the value range of the data required in the dataset, and the data that does not fit the range is marked as none.
 
-![image-20231030205859319](C:/Users/DELL/AppData/Roaming/Typora/typora-user-images/image-20231030205859319.png)
+![image-20231030205859319](imgs/删除存在none的数据.png)
 
-最后，再统一将所有含有none值（即其中至少一项数据存在问题）的数据全部删除。由此，对数据的初步筛选结束。
+最后，再统一将所有含有none值（即其中至少一项数据存在问题）的数据全部删除。将清洗后的数据导出。由此，对数据的初步筛选结束。
 
-Finally, all data with a none value (that is, at least one of the data is faulty) is uniformly deleted. Thus, the preliminary screening of the data is completed.
+Finally, all data with a none value (that is, at least one of the data is faulty) is uniformly deleted. Then export the cleaned data. Thus, the preliminary screening of the data is completed.
 
 之后，我们想对上述预处理后的数据进行进一步处理，正如本节一开始所说，我们目前一共需要处理两个数据集，而这两个数据集是通过“vin”这个唯一id连接起来的，我们计划首先在trip_data.csv数据集中筛选出所有处于行驶状态的车，获得其vin值，数据采集的时间范围的信息。然后再“联立”这两个数据集，遍历0.csv数据集中的每一行，找其vin的值是否在经筛选后的trip_data.csv中存在，如果存在，再进一步比较其数据采集时刻是否出在经筛选后的trip_data.csv中的数据采集时间范围之中。由此，我们写出了下面的代码：
 
@@ -34,7 +34,7 @@ After that, we want to further process the pre-processed data above. As mentione
 
 
 
-![image-20231030212031974](C:/Users/DELL/AppData/Roaming/Typora/typora-user-images/image-20231030212031974.png)
+![image-20231030212031974](imgs/原始联立两表处理方案_两个for循环.png)
 
 但是该代码运行时间过久，我们没能成功得到运行结果，我们将在中期答辩前进一步优化上述代码，以加快其速率。
 
