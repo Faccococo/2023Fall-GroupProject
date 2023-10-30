@@ -199,20 +199,22 @@
 
   <subsubsection|Transformer>
 
-  <space|1em>The Transformer, a groundbreaking architecture in the realm of
-  natural language processing and machine learning, has brought about a
-  paradigm shift in the way we understand and model sequential data.
-  Introduced in the paper ``Attention is All You Need'' by Vaswani et al. in
-  2017, the Transformer is renowned for its prowess in capturing complex
-  contextual relationships in text, making it a cornerstone in a multitude of
+  <space|1em>
+
+  The Transformer, a groundbreaking architecture in the realm of natural
+  language processing and machine learning, has brought about a paradigm
+  shift in the way we understand and model sequential data. Introduced in the
+  paper ``Attention is All You Need'' by Vaswani et al. in 2017, the
+  Transformer is renowned for its prowess in capturing complex contextual
+  relationships in text, making it a cornerstone in a multitude of
   applications, such as machine translation, text summarization, and
   question-answering systems.
 
   \;
 
   At the heart of the Transformer lies a mechanism known as the
-  ``self-attention'' mechanism, which enables it to process input sequences
-  in parallel, rather than sequentially as in traditional recurrent neural
+  "self-attention'' mechanism, which enables it to process input sequences in
+  parallel, rather than sequentially as in traditional recurrent neural
   networks. This innovation affords the Transformer a remarkable capacity to
   handle long-range dependencies and intricate relationships between words in
   a sentence.
