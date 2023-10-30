@@ -1,4 +1,4 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
 <style|acmlarge>
 
@@ -106,18 +106,6 @@
   However, the code took too long to run and we failed to get the running
   result. We will further optimize the above code to speed it up before the
   mid-term defense.
-
-  \;
-
-  <subsection|Dataset Introduction>
-
-  \;
-
-  <subsection|Data Cleaning & Analyse>
-
-  \;
-
-  \;
 
   <section|Modeling>
 
@@ -319,40 +307,36 @@
 
 <\references>
   <\collection>
-    <associate|CITEREFWilliamsHintonRumelhart1986|<tuple|1|?>>
+    <associate|CITEREFWilliamsHintonRumelhart1986|<tuple|1|6>>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|1|2>>
-    <associate|auto-11|<tuple|4.2.2|2>>
-    <associate|auto-12|<tuple|2|2>>
-    <associate|auto-13|<tuple|4.2.3|2>>
-    <associate|auto-14|<tuple|5|?>>
-    <associate|auto-15|<tuple|6|?>>
+    <associate|auto-10|<tuple|2|4>>
+    <associate|auto-11|<tuple|4.2.3|4>>
+    <associate|auto-12|<tuple|5|5>>
+    <associate|auto-13|<tuple|6|5>>
+    <associate|auto-14|<tuple|5|6>>
+    <associate|auto-15|<tuple|6|6>>
     <associate|auto-2|<tuple|2|1>>
     <associate|auto-3|<tuple|3|1>>
-    <associate|auto-4|<tuple|3.1|1>>
-    <associate|auto-5|<tuple|3.2|1>>
-    <associate|auto-6|<tuple|4|2>>
-    <associate|auto-7|<tuple|4.1|2>>
-    <associate|auto-8|<tuple|4.2|2>>
-    <associate|auto-9|<tuple|4.2.1|2>>
-    <associate|cite_note-14|<tuple|1|?>>
-    <associate|auto-10|<tuple|4.2.2|3>>
-    <associate|auto-11|<tuple|4.2.3|3>>
-    <associate|auto-12|<tuple|5|4>>
-    <associate|auto-13|<tuple|6|4>>
-    <associate|auto-2|<tuple|2|1>>
-    <associate|auto-3|<tuple|3|1>>
-    <associate|auto-4|<tuple|3.1|3>>
-    <associate|auto-5|<tuple|3.2|3>>
-    <associate|auto-6|<tuple|4|3>>
-    <associate|auto-7|<tuple|4.1|3>>
-    <associate|auto-8|<tuple|4.2|3>>
-    <associate|auto-9|<tuple|4.2.1|3>>
+    <associate|auto-4|<tuple|4|3>>
+    <associate|auto-5|<tuple|4.1|3>>
+    <associate|auto-6|<tuple|4.2|3>>
+    <associate|auto-7|<tuple|4.2.1|3>>
+    <associate|auto-8|<tuple|1|4>>
+    <associate|auto-9|<tuple|4.2.2|4>>
+    <associate|cite_note-14|<tuple|1|6>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
+    <\associate|figure>
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
+        \;
+      </surround>|<pageref|auto-10>>
+
+      <tuple|normal|<surround|<hidden-binding|<tuple>|2>||Structure of LSTM's
+      neure>|<pageref|auto-12>>
+    </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|4spc>Introduction>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
@@ -382,29 +366,29 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7>>
 
-      <with|par-left|<quote|1tab>|4.2<space|4spc>Models
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|1tab>|4.2<space|4spc>Candidate Time Series
+      Analyse Models <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-8>>
 
-      <with|par-left|<quote|2tab>|4.2.1<space|4spc>LSTM
+      <with|par-left|<quote|2tab>|4.2.1<space|4spc>RNN
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9>>
 
-      <with|par-left|<quote|2tab>|4.2.2<space|4spc>GRU
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-10>>
-
-      <with|par-left|<quote|2tab>|4.2.3<space|4spc>Transformer
+      <with|par-left|<quote|2tab>|4.2.2<space|4spc>LSTM
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-11>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|4spc>Future
-      Plan> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-12><vspace|0.5fn>
+      <with|par-left|<quote|2tab>|4.2.3<space|4spc>Transformer
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-13>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|4spc>Coorperation
+      & Future Plan> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-14><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|6<space|4spc>Reference>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-13><vspace|0.5fn>
+      <no-break><pageref|auto-15><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
