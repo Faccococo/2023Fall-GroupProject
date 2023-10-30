@@ -26,14 +26,36 @@
 
   <section|Background>
 
-  \;
+  <space|1em>The backdrop against which this research unfolds is one marked
+  by a burgeoning interest in renewable energy and sustainable transportation
+  solutions. In the contemporary context, the need to reduce our reliance on
+  fossil fuels and curb the adverse environmental impacts of traditional
+  combustion-engine vehicles is an urgent imperative. New energy vehicles,
+  powered by electricity and other eco-friendly sources, have emerged as a
+  promising alternative.
+
+  Yet, this promising transition is hampered by the ubiquitous specter of
+  'range anxiety.' This pervasive apprehension is the consequence of a lack
+  of a comprehensive, systematic method for dynamically estimating energy
+  consumption throughout the operation of these innovative vehicles.
+
+  In response to this challenge, the current research embarks upon a journey
+  underpinned by a wealth of empirical data. This dataset encompasses an
+  array of critical variables, such as State of Charge (SOC), mileage,
+  velocity, and a host of relevant factors, gathered during the operational
+  lifespan of new energy vehicles. The ultimate aim of this research is to
+  forge an intricate yet elegant model for estimating energy consumption in
+  these vehicles and, in parallel, to engage in the refinement and
+  optimization of said model. Such endeavors hold the promise of
+  revolutionizing the landscape of sustainable transportation and ushering in
+  a greener, more energy-efficient future.
 
   <\section>
     Data Analyse
   </section>
 
-  Dataset our team used is provided by \<less\>TODO\<gtr\>. For legal cause,
-  we cannot provide too much information about it.
+  <space|1em>Dataset our team used is provided by \<less\>TODO\<gtr\>. For
+  legal cause, we cannot provide too much information about it.
 
   <subsection|Dataset Introduction>
 
