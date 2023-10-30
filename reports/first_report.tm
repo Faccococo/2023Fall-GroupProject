@@ -5,8 +5,8 @@
 <\body>
   <doc-data|<doc-title|2023-Fall-GroupProject: Modeling and optimization of
   real-time energy consumption estimation model for new energy
-  vehicles>|<doc-author|<author-data|<author-name|Zitong huang,jiaqi li,
-  xulei shen>|<\author-affiliation>
+  vehicles>|<doc-author|<author-data|<author-name|Zitong huang, Jiaqi Li,
+  Xulei Shen>|<\author-affiliation>
     SUSTech
 
     Southern University of Science and Technology
@@ -68,8 +68,6 @@
   \;
 
   <section|Modeling>
-
-  \;
 
   <subsection|Dataset & Label>
 
